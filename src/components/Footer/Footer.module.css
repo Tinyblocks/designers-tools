@@ -20,8 +20,8 @@
 
 .brandContainer {
   display: flex;
-  align-items: center;
-  gap: var(--spacing-sm);
+  align-items: flex-start;
+  gap: 16px;
 }
 
 .brandText {
@@ -30,10 +30,27 @@
   gap: var(--spacing-xs);
 }
 
-.logo {
-  width: 48px;
-  height: 48px;
+.brandText h2,
+.brandText p {
+  margin: 0;
+}
+
+.copyright {
+  padding-left: 0;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 73px;
+  height: 73px;
   flex-shrink: 0;
+}
+
+.logo {
+  width: 63px;
+  height: 62px;
 }
 
 .brand {
@@ -111,6 +128,10 @@
 
   .copyright {
     font-size: 14px;
+  }
+
+  .logoContainer {
+    display: none;
   }
 }
 

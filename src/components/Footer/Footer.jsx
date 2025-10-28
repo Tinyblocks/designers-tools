@@ -13,7 +13,9 @@ function Footer() {
     <footer className={styles.footer}>
       <div className={styles.left}>
         <div className={styles.brandContainer}>
-          <img src={logo} alt="PixelKit Logo" className={styles.logo} />
+          <div className={styles.logoContainer}>
+            <img src={logo} alt="PixelKit Logo" className={styles.logo} />
+          </div>
           <div className={styles.brandText}>
             <h2 className={styles.brand}>PixelKit</h2>
             <p className={styles.copyright}>© 2025 Colin Moinard</p>
