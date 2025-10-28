@@ -1,0 +1,50 @@
+.scrollContainer {
+  display: flex;
+  gap: var(--spacing-xl);
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: auto;
+  cursor: grab;
+  padding: 0 var(--spacing-xxl) 0 calc(555px + var(--spacing-xl) + var(--spacing-xxl));
+  margin: 0;
+  height: 100%;
+  align-items: center;
+}
+
+.scrollContainer:active {
+  cursor: grabbing;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollContainer {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Tablet responsiveness */
+@media (max-width: 1200px) and (min-width: 1025px) {
+  .scrollContainer {
+    padding: 0 var(--spacing-lg) 0 calc(555px + var(--spacing-md));
+    gap: var(--spacing-md);
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 1201px) {
+  .scrollContainer {
+    padding: 0 var(--spacing-xxl) 0 calc(555px + var(--spacing-xl));
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+  .scrollContainer {
+    gap: 24px;
+    padding: 0 24px 0 24px;
+  }
+}
+

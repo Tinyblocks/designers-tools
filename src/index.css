@@ -1,0 +1,80 @@
+/* Import Geist font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Colors from Figma */
+  --color-black: #090909;
+  --color-dark-gray: #191919;
+  --color-white: #FFFFFF;
+  --color-primary: #D3C1ED;
+  --color-gray-light: #BFBFBF;
+
+  /* Typography - Geist font family */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  
+  /* Font sizes from Figma */
+  --font-size-h1: 76px;
+  --font-size-h2: 112px;
+  --font-size-h3: 56px;
+  --font-size-h4: 24px;
+  --font-size-body: 16px;
+  
+  /* Line heights */
+  --line-height-h1: 1.3157894736842106;
+  --line-height-h2: 1.2999999182564872;
+  --line-height-h3: 1.2999999182564872;
+  --line-height-h4: 1.24;
+  --line-height-body: 1.7062499523162842;
+  
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 40px;
+  --spacing-xxl: 80px;
+  --spacing-hero: 160px;
+  
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  
+  /* Layout */
+  --max-width: 1512px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  background-color: var(--color-black);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide scrollbars but keep functionality */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Smooth momentum scrolling on iOS */
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
