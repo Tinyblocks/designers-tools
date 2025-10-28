@@ -1,8 +1,5 @@
 <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-  <rect width="32" height="32" rx="6" fill="#000000"/>
-  <g transform="translate(4, 4)">
-    <polygon points="12,8 20,20 12,20" fill="#8B5CF6"/>
-    <polygon points="12,8 12,20 4,20" fill="#A78BFA"/>
-    <polygon points="12,12 16,20 8,20" fill="#C4B5FD"/>
-  </g>
+  <polygon points="16,6 26,22 16,22" fill="#8B5CF6"/>
+  <polygon points="16,6 16,22 6,22" fill="#A78BFA"/>
+  <polygon points="16,10 20,22 12,22" fill="#C4B5FD"/>
 </svg>
