@@ -4,7 +4,7 @@ export const tools = [
     icon: '/assets/icons/calculator-icon.png',
     title: 'UX/UI Project Price Estimator',
     description: 'Calculate accurate design project estimates in minutes. Configure phases (UX Audit, Research, Wireframes, UI Design), add revision rounds, and get transparent pricing breakdowns for client proposals.',
-    link: 'https://ux-ui-price-estimator.vercel.app/',
+    link: 'http://uxui-estimator.pixelkit.net/',
     buttonText: 'Discover'
   },
   {
