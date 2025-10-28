@@ -11,7 +11,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.left}>
-        <h2 className={styles.brand}>BrandName</h2>
+        <h2 className={styles.brand}>PixelKit</h2>
         <p className={styles.copyright}>© 2025 Colin Moinard</p>
       </div>
       <div className={styles.right}>
