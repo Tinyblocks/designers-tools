@@ -18,6 +18,18 @@
   gap: var(--spacing-sm);
 }
 
+.brandContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
 .brand {
   font-family: var(--font-family);
   font-weight: 400;
